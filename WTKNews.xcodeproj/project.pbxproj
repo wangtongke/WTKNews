@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F585770D1D58860600B780E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F585770C1D58860600B780E5 /* AppDelegate.swift */; };
+		F585770F1D58860600B780E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F585770E1D58860600B780E5 /* ViewController.swift */; };
+		F58577121D58860600B780E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F58577101D58860600B780E5 /* Main.storyboard */; };
+		F58577141D58860600B780E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F58577131D58860600B780E5 /* Assets.xcassets */; };
+		F58577171D58860600B780E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F58577151D58860600B780E5 /* LaunchScreen.storyboard */; };
+		F58577221D58860600B780E5 /* WTKNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58577211D58860600B780E5 /* WTKNewsTests.swift */; };
+		F585772D1D58860600B780E5 /* WTKNewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F585772C1D58860600B780E5 /* WTKNewsUITests.swift */; };
+		F58577471D5888E800B780E5 /* WTKCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58577461D5888E800B780E5 /* WTKCollectionView.swift */; };
+		F585774A1D5888F800B780E5 /* WTKCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58577481D5888F800B780E5 /* WTKCollectionViewCell.swift */; };
+		F585774B1D5888F800B780E5 /* WTKCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F58577491D5888F800B780E5 /* WTKCollectionViewCell.xib */; };
+		F585774D1D58890D00B780E5 /* WTKScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F585774C1D58890D00B780E5 /* WTKScrollView.swift */; };
+		F585774F1D58893000B780E5 /* WTKTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F585774E1D58893000B780E5 /* WTKTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F585771E1D58860600B780E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F58577011D58860600B780E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F58577081D58860600B780E5;
+			remoteInfo = WTKNews;
+		};
+		F58577291D58860600B780E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F58577011D58860600B780E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F58577081D58860600B780E5;
+			remoteInfo = WTKNews;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F58577091D58860600B780E5 /* WTKNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WTKNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F585770C1D58860600B780E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F585770E1D58860600B780E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F58577111D58860600B780E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F58577131D58860600B780E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F58577161D58860600B780E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F58577181D58860600B780E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F585771D1D58860600B780E5 /* WTKNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WTKNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F58577211D58860600B780E5 /* WTKNewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTKNewsTests.swift; sourceTree = "<group>"; };
+		F58577231D58860600B780E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F58577281D58860600B780E5 /* WTKNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WTKNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F585772C1D58860600B780E5 /* WTKNewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTKNewsUITests.swift; sourceTree = "<group>"; };
+		F585772E1D58860600B780E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F58577461D5888E800B780E5 /* WTKCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WTKCollectionView.swift; sourceTree = "<group>"; };
+		F58577481D5888F800B780E5 /* WTKCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WTKCollectionViewCell.swift; sourceTree = "<group>"; };
+		F58577491D5888F800B780E5 /* WTKCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WTKCollectionViewCell.xib; sourceTree = "<group>"; };
+		F585774C1D58890D00B780E5 /* WTKScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WTKScrollView.swift; sourceTree = "<group>"; };
+		F585774E1D58893000B780E5 /* WTKTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WTKTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F58577061D58860600B780E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F585771A1D58860600B780E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F58577251D58860600B780E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F58577001D58860600B780E5 = {
+			isa = PBXGroup;
+			children = (
+				F585770B1D58860600B780E5 /* WTKNews */,
+				F58577201D58860600B780E5 /* WTKNewsTests */,
+				F585772B1D58860600B780E5 /* WTKNewsUITests */,
+				F585770A1D58860600B780E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F585770A1D58860600B780E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F58577091D58860600B780E5 /* WTKNews.app */,
+				F585771D1D58860600B780E5 /* WTKNewsTests.xctest */,
+				F58577281D58860600B780E5 /* WTKNewsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F585770B1D58860600B780E5 /* WTKNews */ = {
+			isa = PBXGroup;
+			children = (
+				F585770C1D58860600B780E5 /* AppDelegate.swift */,
+				F585770E1D58860600B780E5 /* ViewController.swift */,
+				F58577461D5888E800B780E5 /* WTKCollectionView.swift */,
+				F58577481D5888F800B780E5 /* WTKCollectionViewCell.swift */,
+				F58577491D5888F800B780E5 /* WTKCollectionViewCell.xib */,
+				F585774C1D58890D00B780E5 /* WTKScrollView.swift */,
+				F585774E1D58893000B780E5 /* WTKTableViewCell.swift */,
+				F58577101D58860600B780E5 /* Main.storyboard */,
+				F58577131D58860600B780E5 /* Assets.xcassets */,
+				F58577151D58860600B780E5 /* LaunchScreen.storyboard */,
+				F58577181D58860600B780E5 /* Info.plist */,
+			);
+			path = WTKNews;
+			sourceTree = "<group>";
+		};
+		F58577201D58860600B780E5 /* WTKNewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F58577211D58860600B780E5 /* WTKNewsTests.swift */,
+				F58577231D58860600B780E5 /* Info.plist */,
+			);
+			path = WTKNewsTests;
+			sourceTree = "<group>";
+		};
+		F585772B1D58860600B780E5 /* WTKNewsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F585772C1D58860600B780E5 /* WTKNewsUITests.swift */,
+				F585772E1D58860600B780E5 /* Info.plist */,
+			);
+			path = WTKNewsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F58577081D58860600B780E5 /* WTKNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F58577311D58860600B780E5 /* Build configuration list for PBXNativeTarget "WTKNews" */;
+			buildPhases = (
+				F58577051D58860600B780E5 /* Sources */,
+				F58577061D58860600B780E5 /* Frameworks */,
+				F58577071D58860600B780E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WTKNews;
+			productName = WTKNews;
+			productReference = F58577091D58860600B780E5 /* WTKNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F585771C1D58860600B780E5 /* WTKNewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F58577341D58860600B780E5 /* Build configuration list for PBXNativeTarget "WTKNewsTests" */;
+			buildPhases = (
+				F58577191D58860600B780E5 /* Sources */,
+				F585771A1D58860600B780E5 /* Frameworks */,
+				F585771B1D58860600B780E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F585771F1D58860600B780E5 /* PBXTargetDependency */,
+			);
+			name = WTKNewsTests;
+			productName = WTKNewsTests;
+			productReference = F585771D1D58860600B780E5 /* WTKNewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F58577271D58860600B780E5 /* WTKNewsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F58577371D58860600B780E5 /* Build configuration list for PBXNativeTarget "WTKNewsUITests" */;
+			buildPhases = (
+				F58577241D58860600B780E5 /* Sources */,
+				F58577251D58860600B780E5 /* Frameworks */,
+				F58577261D58860600B780E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F585772A1D58860600B780E5 /* PBXTargetDependency */,
+			);
+			name = WTKNewsUITests;
+			productName = WTKNewsUITests;
+			productReference = F58577281D58860600B780E5 /* WTKNewsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F58577011D58860600B780E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "王同科";
+				TargetAttributes = {
+					F58577081D58860600B780E5 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F585771C1D58860600B780E5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F58577081D58860600B780E5;
+					};
+					F58577271D58860600B780E5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F58577081D58860600B780E5;
+					};
+				};
+			};
+			buildConfigurationList = F58577041D58860600B780E5 /* Build configuration list for PBXProject "WTKNews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F58577001D58860600B780E5;
+			productRefGroup = F585770A1D58860600B780E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F58577081D58860600B780E5 /* WTKNews */,
+				F585771C1D58860600B780E5 /* WTKNewsTests */,
+				F58577271D58860600B780E5 /* WTKNewsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F58577071D58860600B780E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F585774B1D5888F800B780E5 /* WTKCollectionViewCell.xib in Resources */,
+				F58577171D58860600B780E5 /* LaunchScreen.storyboard in Resources */,
+				F58577141D58860600B780E5 /* Assets.xcassets in Resources */,
+				F58577121D58860600B780E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F585771B1D58860600B780E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F58577261D58860600B780E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F58577051D58860600B780E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F58577471D5888E800B780E5 /* WTKCollectionView.swift in Sources */,
+				F585770F1D58860600B780E5 /* ViewController.swift in Sources */,
+				F585774A1D5888F800B780E5 /* WTKCollectionViewCell.swift in Sources */,
+				F585770D1D58860600B780E5 /* AppDelegate.swift in Sources */,
+				F585774D1D58890D00B780E5 /* WTKScrollView.swift in Sources */,
+				F585774F1D58893000B780E5 /* WTKTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F58577191D58860600B780E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F58577221D58860600B780E5 /* WTKNewsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F58577241D58860600B780E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F585772D1D58860600B780E5 /* WTKNewsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F585771F1D58860600B780E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F58577081D58860600B780E5 /* WTKNews */;
+			targetProxy = F585771E1D58860600B780E5 /* PBXContainerItemProxy */;
+		};
+		F585772A1D58860600B780E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F58577081D58860600B780E5 /* WTKNews */;
+			targetProxy = F58577291D58860600B780E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F58577101D58860600B780E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F58577111D58860600B780E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F58577151D58860600B780E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F58577161D58860600B780E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F585772F1D58860600B780E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F58577301D58860600B780E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F58577321D58860600B780E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WTKNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.WTKNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F58577331D58860600B780E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WTKNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.WTKNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F58577351D58860600B780E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WTKNewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.WTKNewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WTKNews.app/WTKNews";
+			};
+			name = Debug;
+		};
+		F58577361D58860600B780E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WTKNewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.WTKNewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WTKNews.app/WTKNews";
+			};
+			name = Release;
+		};
+		F58577381D58860600B780E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WTKNewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.WTKNewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WTKNews;
+			};
+			name = Debug;
+		};
+		F58577391D58860600B780E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WTKNewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.WTKNewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WTKNews;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F58577041D58860600B780E5 /* Build configuration list for PBXProject "WTKNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F585772F1D58860600B780E5 /* Debug */,
+				F58577301D58860600B780E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F58577311D58860600B780E5 /* Build configuration list for PBXNativeTarget "WTKNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F58577321D58860600B780E5 /* Debug */,
+				F58577331D58860600B780E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F58577341D58860600B780E5 /* Build configuration list for PBXNativeTarget "WTKNewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F58577351D58860600B780E5 /* Debug */,
+				F58577361D58860600B780E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F58577371D58860600B780E5 /* Build configuration list for PBXNativeTarget "WTKNewsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F58577381D58860600B780E5 /* Debug */,
+				F58577391D58860600B780E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F58577011D58860600B780E5 /* Project object */;
+}
